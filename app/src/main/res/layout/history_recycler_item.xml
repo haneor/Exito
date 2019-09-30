@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/underline">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/underline"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/history_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="생성시간"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/history_item_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="전화번호"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/history_item_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="출발지"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/history_item_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="도착지"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/history_item_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="거리"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/history_item_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="결제요금"
+            android:textColor="@color/backgraround"
+            android:textSize="17dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
